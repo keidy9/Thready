@@ -55,7 +55,7 @@ const ItemDetails = () => {
             alt={item?.name}
             width="100%"
             height="100%"
-            src={`https://thready.fly.dev/${item?.attributes?.image?.data[0]?.attributes?.formats?.medium?.url}`}
+            src={`https://thready.fly.dev${item?.attributes?.image?.data[0]?.attributes?.formats?.medium?.url}`}
             style={{ objectFit: "contain" }}
           />
         </Box>
